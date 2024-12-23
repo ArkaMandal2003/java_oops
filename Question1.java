@@ -20,6 +20,6 @@ public class Question1 {
         double distance = (speed * time) + (0.5 * acc * time * time);
         System.out.println("The distance covered is: "+ distance);
 
-
+    
     }
 }
