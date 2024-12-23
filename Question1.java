@@ -8,8 +8,11 @@ public class Question1 {
         System.out.println("enter the initial speed:");
         double speed = scanner.nextDouble();
 
-        System.out.println("enter the time:");
-        double time = scanner.nextDouble();
+        double time;
+        do{
+            System.out.println("enter the time:");
+        time = scanner.nextDouble();
+}while(time < 0);
 
         System.out.println("enter the accelaration:");
         double acc = scanner.nextDouble();
